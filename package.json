@@ -20,6 +20,7 @@
     "typescript": "^5.2.2"
   },
   "dependencies": {
-    "@nuxt/ui": "^2.8.1"
+    "@nuxt/ui": "^2.8.1",
+    "nuxt-scheduler": "^0.1.9"
   }
 }
