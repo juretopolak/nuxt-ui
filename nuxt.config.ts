@@ -10,6 +10,5 @@ export default defineNuxtConfig({
   },
   eslint: {
     fix: true
-  },
-  devtools: { enabled: true }
+  }
 })
