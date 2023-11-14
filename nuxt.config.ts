@@ -5,8 +5,7 @@ const { resolve } = createResolver(import.meta.url)
 export default defineNuxtConfig({
   modules: [
     '@nuxt/ui',
-    '@nuxtjs/eslint-module',
-    'nuxt-scheduler'
+    '@nuxtjs/eslint-module'
   ],
   colorMode: {
     preference: 'dark' // dark / light
