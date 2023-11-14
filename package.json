@@ -26,7 +26,6 @@
     "@nuxt/ui": "^2.10.0",
     "better-sqlite3": "^9.1.1",
     "drizzle-orm": "^0.29.0",
-    "h3-zod": "^0.5.2",
-    "nuxt-scheduler": "^0.1.9"
+    "h3-zod": "^0.5.2"
   }
 }
