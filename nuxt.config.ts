@@ -1,4 +1,7 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
+import { createResolver } from 'nuxt/kit'
+
+const { resolve } = createResolver(import.meta.url)
+
 export default defineNuxtConfig({
   modules: [
     '@nuxt/ui',
@@ -10,5 +13,8 @@ export default defineNuxtConfig({
   },
   eslint: {
     fix: true
+  },
+  runtimeConfig: {
+    dbDir: resolve('./server/db'),
   }
 })
