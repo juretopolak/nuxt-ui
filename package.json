@@ -1,5 +1,6 @@
 {
-  "name": "nuxt-app",
+  "name": "nuxt-ui",
+  "packageManager": "yarn@3.6.3",
   "private": true,
   "type": "module",
   "scripts": {
