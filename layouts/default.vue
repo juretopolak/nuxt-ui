@@ -18,7 +18,7 @@
       <div class="lg:col-span-2">
         <MainMenu />
       </div>
-      <div class="">
+      <div class="lg:col-span-8">
         <slot />
       </div>
     </div>
